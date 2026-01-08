@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const translations = {
   es: {
     sections: ['inicio', 'conocenos', 'terminos_condiciones'],
@@ -93,6 +95,14 @@ export const mediaFiles = {
         <p className="text-white font-visby-heavy max-sm:text-4xl max-lg:text-[4rem] text-8xl">Lleva tu empresa</p>
         <p className="text-white font-visby-heavy max-sm:text-4xl max-lg:text-[4rem] text-8xl min-md:self-end">a otro</p>
         <p className="text-[#CBE850] uppercase max-sm:text-8xl max-lg:text-[12rem] text-[19rem] font-visby-heavy leading-none">nivel </p>
+        <div className="mt-8">
+          <Link
+            href="/contacto"
+            className="inline-block border border-[#CBE850] text-[#CBE850] bg-[transparent] rounded-[8px] px-8 py-3 text-2xl hover:bg-[#CBE850] hover:text-black transition-colors duration-200 cursor-pointer"
+          >
+            Hablemos
+          </Link>
+        </div>
       </div>
     ),
   },
@@ -107,6 +117,14 @@ export const mediaFiles = {
         <p className="text-white font-visby-heavy max-sm:text-4xl max-lg:text-[4rem] text-8xl">Take your business</p>
         <p className="text-white font-visby-heavy max-sm:text-4xl max-lg:text-[4rem] text-8xl min-md:self-end">to the next</p>
         <p className="text-[#CBE850] uppercase max-sm:text-8xl max-lg:text-[12rem] text-[19rem] font-visby-heavy leading-none">level</p>
+        <div className="mt-8">
+          <Link
+            href="/contact"
+            className="inline-block border border-[#CBE850] text-[#CBE850] bg-[transparent] rounded-[8px] px-8 py-3 text-2xl hover:bg-[#CBE850] hover:text-black transition-colors duration-200 cursor-pointer"
+          >
+            Let's talk
+          </Link>
+        </div>
       </div>
     ),
   },
