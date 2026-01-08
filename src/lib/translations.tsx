@@ -122,7 +122,7 @@ export const mediaFiles = {
             href="/contact"
             className="inline-block border border-[#CBE850] text-[#CBE850] bg-[transparent] rounded-[8px] px-8 py-3 text-2xl hover:bg-[#CBE850] hover:text-black transition-colors duration-200 cursor-pointer"
           >
-            Let's talk
+            Let&apos;s talk
           </Link>
         </div>
       </div>
